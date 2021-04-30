@@ -1,5 +1,5 @@
 import java.util.Random;
-//Dato un vettore di 100 interi (numeri interi generati Random e compresi da 0 a 9) inserire in un secondo array (array "frequenze"), le frequenze dei numeri che appaiono nel primo vettore.
+//Dato un vettore di 100 interi (numeri interi generati Random e compresi da 0 a 9) inserire in un secondo array (array "frequenze" ), le frequenze dei numeri che appaiono nel primo vettore.
 public class Frequenze {
     public static void main(String[] args) {
         int[]vettore = new int[100];
