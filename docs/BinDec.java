@@ -15,7 +15,6 @@ public class BinDec {
                     System.out.println("Il numero deve essere 1 o 0");
                 }
             } while (bin[i] >= 2 || bin[i] <= -1);
-
             dec += (Math.pow(2, k) * bin[i]);
             k--;
         }
