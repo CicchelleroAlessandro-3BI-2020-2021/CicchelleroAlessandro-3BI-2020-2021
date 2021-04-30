@@ -17,7 +17,6 @@ public class BinDec {
             } while (bin[i] >= 2 || bin[i] <= -1);
 
             dec += (Math.pow(2, k) * bin[i]);
-            System.out.println(dec);
             k--;
         }
         System.out.print("Il numero binario ");
