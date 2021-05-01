@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-//Si supponga di avere un array valori di 10 elementi in cui gli elementi della prima metà della seconda metà sono disposti in ordine crescente. Copiare tutti gli elementi di valori in un nuovo array valori2 in modo che siano tutti ordinati.
+/*Si supponga di avere un array valori di 10 elementi in cui gli elementi della prima metà e
+della seconda metà sono disposti in ordine crescente. Copiare tutti gli elementi di valori
+in un nuovo array valori2 in modo che siano tutti ordinati.
+*/
 public class Ordinamento2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

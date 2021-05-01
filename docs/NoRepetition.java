@@ -1,6 +1,8 @@
 import java.util.Random;
 
-// Sviluppare un'algoritmo che permetta di riempire un vettore di 5 elementi interi con 5 numeri compresi fra 0 e 9 (inclusi) in modo casuale (random) e senza che vi siano ripetizioni.
+/* Sviluppare un'algoritmo che permetta di riempire un vettore di 5 elementi interi
+con 5 numeri compresi fra 0 e 9 (inclusi) in modo casuale (random) e senza che vi siano ripetizioni.
+*/
 class NoRepetition {
     public static void main(String[] args) {
         Random rnd = new Random();

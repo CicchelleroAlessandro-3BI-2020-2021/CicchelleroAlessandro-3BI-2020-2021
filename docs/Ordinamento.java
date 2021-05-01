@@ -1,5 +1,7 @@
 import java.util.Scanner;
-//Eseguire l'ordinamento di un vettore di interi tramite l'algoritmo di scambio, usando un intero di transito per lo scambio (salva=a; a=b; b=salva).
+/*Eseguire l'ordinamento di un vettore di interi tramite l'algoritmo di scambio,
+usando un intero di transito per lo scambio (salva=a; a=b; b=salva).
+*/
 public class Ordinamento {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
