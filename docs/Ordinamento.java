@@ -13,6 +13,7 @@ public class Ordinamento {
         for(int i = 0; i < v.length; i++){
             System.out.print(v[i] + " ");
         }
+        System.out.println();
         System.out.println("viene riordinata in:");
         for(int i = 0; i < v.length; i++){
             for(int i2 = 0; i2 < v.length; i2++){
