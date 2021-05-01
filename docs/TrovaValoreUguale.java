@@ -12,19 +12,19 @@ public class TrovaValoreUguale {
         }
         for (int i = 0; i < array.length; i++) {
             for (int i2 = 0; i2 < array.length; i2++) {
-                if(i==i2){
-                }else if(array[i] == array[i2]){
+                if (i == i2) {
+                } else if (array[i] == array[i2]) {
                     end = false;
                     break;
                 }
             }
-            if(!end){
+            if (!end) {
                 break;
             }
         }
-        if(!end){
+        if (!end) {
             System.out.println("Ci sono 2 numeri uguali.");
-        }else{
+        } else {
             System.out.println("Non ci sono numeri uguali.");
         }
     }
