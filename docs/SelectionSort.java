@@ -25,7 +25,7 @@ public class SelectionSort {
         }
         System.out.println("La sequenza ordinata è:");
         for (int i = 0; i < val.length; i++) {
-            System.out.print(val[i]+ " ");
+            System.out.print(val[i] + " ");
         }
     }
 }
