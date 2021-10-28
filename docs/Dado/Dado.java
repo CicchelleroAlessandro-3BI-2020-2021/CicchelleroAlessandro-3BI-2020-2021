@@ -1,6 +1,8 @@
+package Dado;
+
 import java.util.Random;
 
-public class Dado {
+public class Dado{
     private int facce;
     private boolean truccato;
 
@@ -27,12 +29,9 @@ public class Dado {
         return this.truccato;
     }
     public int lancia(){
-        Random rnd = new Random();
-        if(truccato = false){
-            return rnd.nextInt(facce+1);
-        }else{
+        if(truccato){
             return 3;
-        }
+        }return new Random().nextInt(facce+1);
     }
 }
 
