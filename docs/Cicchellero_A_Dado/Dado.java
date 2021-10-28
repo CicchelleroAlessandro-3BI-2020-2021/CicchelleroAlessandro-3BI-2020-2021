@@ -1,8 +1,8 @@
-package Dado;
+package Cicchellero_A_Dado;
 
 import java.util.Random;
 
-public class Dado{
+public class Dado {
     private int facce;
     private boolean truccato;
 

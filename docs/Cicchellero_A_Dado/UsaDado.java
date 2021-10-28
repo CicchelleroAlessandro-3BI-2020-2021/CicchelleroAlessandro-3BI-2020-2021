@@ -1,4 +1,4 @@
-package Dado;
+package Cicchellero_A_Dado;
 
 public class UsaDado {
     public static void main(String[] args) {
